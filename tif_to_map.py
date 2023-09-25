@@ -10,7 +10,7 @@ def ConvertToPCRaster (src_fname,dst_fname,ot,VS):
     src_ds = None
     dst_ds = None
 
-dir="D:\Puerto Cisnes_prueba"
+dir="D:\PuertoCisnes_prueba\\250m_pixel"
 chdir(dir)
 # Ruta al archivo .jp2
 tif_file = 'DEM_mask.tif'
