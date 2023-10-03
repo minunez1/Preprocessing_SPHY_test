@@ -2,11 +2,11 @@ from os import chdir
 from pcraster import *
 import os
 
-dir="D:\PuertoCisnes_prueba\\250m_pixel"
+dir="D:\Prueba_SPHY_rio_cisnes_250m\InfoGeneral"
 chdir(dir)
 
 #Leemos DEM y definimos nombres archivos
-DEM=readmap("dem_250_crs.map")
+DEM=readmap("dem_crs.map")
 nombre_a_dem_corr='dem_corr_250.map' #definimos nombre archivo con dem corregido
 nombre_slope='slope_250.map' #definimos nombre archivo con pendientes
 flowdir='flowdir250.map' #definimos nombre archivo con sentido de flujo

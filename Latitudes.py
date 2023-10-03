@@ -3,10 +3,10 @@ from osgeo import gdal
 import numpy as np
 from os import chdir
 
-dir="D:\PuertoCisnes_prueba\\250m_pixel"
+dir="D:\Prueba_SPHY_rio_cisnes_250m"
 chdir(dir)
 
-mask_tif='DEM_mask.tif'
+mask_tif='DEM_250_grande.tif'
 mask_tif_latlon='DEM_latlon.tif'
 crs_origen='EPSG:32718'
 crs_final='EPSG:4326'
