@@ -13,10 +13,10 @@ def ConvertToPCRaster (src_fname,dst_fname,ot,VS):
 dir="D:\Prueba_SPHY_rio_cisnes_250m\InfoGeneral"
 chdir(dir)
 # Ruta al archivo .jp2
-tif_file = 'latitudes_ext_250.tif'
+tif_file = 'Landcover.tif'
 
-ConvertToPCRaster(tif_file,'latitudes.map',gdalconst.GDT_Float32,"VS_SCALAR")
-dem = readmap('latitudes.map')
+ConvertToPCRaster(tif_file,'prueba_luse.map',gdalconst.GDT_Float32,"VS_NOMINAL")
+dem = readmap('prueba_luse.map')
 #demf = lddcreatedem(dem,1e31,1e31,1e31,1e31)
 #report(demf,"dem500f.map")
 aguila(dem)
